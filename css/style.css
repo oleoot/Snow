@@ -4,11 +4,97 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Work Sans', sans-serif;
 }
+/* Header section ==========================================================================================================*/
+#header{
+height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),url(../img/bg/bg-1.jpg);
+background-size: cover;
+background-position: 50% 50%;
+align-items: center;
+}
+#header h1{
+width: 60%;
+margin: 30px auto;
+color: var(--accent-color);
+text-align: center;
+}
+#header p{
+text-align: center;
+text-transform: uppercase;
+color: var(--accent-color);
+font-weight: 700;
+}
+.nav{
+height: 100px;
+width: 100%;
+background: var(--accent-color);
+align-items: center;
+position: fixed;
+top: 0;
+}
+.nav img{
+width: 85px;
+}
+.nav ul{
+align-items: center;
+list-style-type: none;
+}
+.nav li{
+margin: 0 15px;
+}
+.nav a{
+text-decoration: none;
+text-transform: uppercase;
+color: var(--nav-color);
+font-weight: 500;
+}
+.header-button-down {
+width: 50px;
+height: 50px;
+border: 1px solid var(--accent-color);
+border-radius: 50%;
+position: absolute;
+bottom: 65px;
+left: 0;
+right: 0;
+margin: auto;
+align-items: center;
+}
+.header-button-down img{
+width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Utility classes ==========================================================================================================*/
 :root{
+--nav-color: #626261;
 --headline-color: #171717;
 --accent-color: #fff;
 --description-color: #5f5f5f;
+}
+.container{
+width: 60%;
+margin: 0 auto;
+align-items: center;
 }
 .flex-container{
 display: flex;
@@ -39,5 +125,16 @@ font-weight: 500;
 }
 .text-xl{
 font-size: 48px;
-font-weight: 700;
+font-weight: 500;
+}
+.btn{
+display: block;
+margin: 35px auto 0;
+background: var(--headline-color);
+padding: 18px 25px;
+text-transform: uppercase;
+color: var(--accent-color);
+border: none;
+outline: none;
+cursor: pointer;
 }
