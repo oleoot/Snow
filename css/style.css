@@ -69,7 +69,7 @@ display: block;
 margin: 0 auto;
 }
 /* Accomplishment section ==========================================================================================================*/
-#accomplishment{
+#accomplishment, #statement{
 background: url(../img/bg/bg-2.jpg);
 background-size: cover;
 background-position: 50% 50%;
@@ -91,14 +91,27 @@ font-weight: 500;
 margin-bottom: 5px;
 }
 
-/* Projectst section ==========================================================================================================*/
+/* Projects section ==========================================================================================================*/
 .projects-wrap{
 grid-template-columns: 1fr 1fr 1fr;
 }
-
-
-
-
+/* Statement section ==========================================================================================================*/
+#statement p{
+text-align: center;
+color: var(--accent-color);
+width: 70%;
+margin: 0 auto;
+}
+#statement p:first-child{
+font-weight: 400;
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+font-style: italic;
+}
+#statement p:last-child{
+text-transform: uppercase;
+font-weight: 500;
+}
 
 
 
