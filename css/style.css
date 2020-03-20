@@ -66,7 +66,7 @@ width: 30%;
 /* About section ==========================================================================================================*/
 #about img{
 display: block;
-margin: 30px auto 0;
+margin: 0 auto;
 }
 /* Accomplishment section ==========================================================================================================*/
 #accomplishment{
@@ -91,8 +91,10 @@ font-weight: 500;
 margin-bottom: 5px;
 }
 
-
-
+/* Projectst section ==========================================================================================================*/
+.projects-wrap{
+grid-template-columns: 1fr 1fr 1fr;
+}
 
 
 
@@ -129,6 +131,9 @@ justify-content: center;
 }
 .grid-container{
 display: grid;
+}
+.grid-container a{
+display: block;
 }
 .text-xs{
 font-size: 12px;
@@ -169,8 +174,12 @@ text-align: center;
 margin-bottom: 40px;
 }
 .section-description{
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
-  line-height: 25px;
+text-align: center;
+width: 60%;
+margin: 0 auto 30px;
+line-height: 25px;
+}
+.item-img{
+display: block;
+width: 100%;
 }
