@@ -68,11 +68,28 @@ width: 30%;
 display: block;
 margin: 30px auto 0;
 }
-
-
-
-
-
+/* Accomplishment section ==========================================================================================================*/
+#accomplishment{
+background: url(../img/bg/bg-2.jpg);
+background-size: cover;
+background-position: 50% 50%;
+}
+.accomplishment-wrap{
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.accomplishment-wrap img{
+width: 50px;
+height: 50px;
+margin-right: 30px;
+}
+.accomplishment-wrap p{
+text-transform: uppercase;
+color: var(--accent-color);
+}
+.accomplishment-wrap p:first-child{
+font-weight: 500;
+margin-bottom: 5px;
+}
 
 
 
