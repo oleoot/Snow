@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Work Sans', sans-serif;
+}
+/* Utility classes ==========================================================================================================*/
+:root{
+--headline-color: #171717;
+--accent-color: #fff;
+--description-color: #5f5f5f;
+}
+.flex-container{
+display: flex;
+justify-content: space-between;
+}
+.flex-container-center{
+display: flex;
+justify-content: center;
+}
+.grid-container{
+display: grid;
+}
+.text-xs{
+font-size: 12px;
+font-weight: 300;
+}
+.text-s{
+font-size: 15px;
+font-weight: 400;
+}
+.text-md{
+font-size: 22px;
+font-weight: 400;
+}
+.text-lg{
+font-weight: 38px;
+font-weight: 500;
+}
+.text-xl{
+font-size: 48px;
+font-weight: 700;
+}
