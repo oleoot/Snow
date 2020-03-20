@@ -63,8 +63,11 @@ align-items: center;
 .header-button-down img{
 width: 30%;
 }
-
-
+/* About section ==========================================================================================================*/
+#about img{
+display: block;
+margin: 30px auto 0;
+}
 
 
 
@@ -90,6 +93,9 @@ width: 30%;
 --headline-color: #171717;
 --accent-color: #fff;
 --description-color: #5f5f5f;
+}
+section{
+padding: 80px 0;
 }
 .container{
 width: 60%;
@@ -120,12 +126,14 @@ font-size: 22px;
 font-weight: 400;
 }
 .text-lg{
-font-weight: 38px;
-font-weight: 500;
+font-size: 38px;
+font-weight: 700;
+font-family: 'Playfair Display', serif;
 }
 .text-xl{
 font-size: 48px;
 font-weight: 500;
+font-family: 'Playfair Display', serif;
 }
 .btn{
 display: block;
@@ -137,4 +145,15 @@ color: var(--accent-color);
 border: none;
 outline: none;
 cursor: pointer;
+font-weight: 500;
+}
+.section-headline{
+text-align: center;
+margin-bottom: 40px;
+}
+.section-description{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 25px;
 }
