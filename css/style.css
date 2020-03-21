@@ -199,9 +199,22 @@ height: 180px;
 #contact button{
 margin: 35px 0 0 0 !important;
 }
-
-
-
+/* Footer section ==========================================================================================================*/
+#footer{
+background: #ebebeb;
+padding: 50px 0;
+}
+#footer a{
+margin: 0 10px;
+}
+#footer img{
+width: 20px;
+height: 20px;
+}
+#footer p{
+text-align: center;
+margin: 25px auto 0;
+}
 
 /* Utility classes ==========================================================================================================*/
 :root{
